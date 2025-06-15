@@ -11,8 +11,6 @@
     <project path="kernel/samsung/s5e8535" name="android_kernel_samsung_s5e8535" remote="yamotaprjkt" revision="Android15-stable" />
     <project path="vendor/samsung/a14x" name="android_vendor_samsung_a14x" remote="yamotaprjkt" revision="lineage-22.2" />
     <project path="vendor/samsung/universal8535-common" name="android_vendor_samsung_universal8535-common" remote="yamotaprjkt" revision="lineage-22.2" />
-    <project path="vendor/samsung/m14x" name="android_vendor_samsung_m14x" remote="yamotaprjkt" revision="lineage-22.2" />
-    <project path="device/samsung/m14x" name="android_device_samsung_m14x" remote="yamotaprjkt" revision="lineage-22.2" />
     <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="LineageOS" revision="lineage-22.2" />
     <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="LineageOS" revision="lineage-22.2" />
     <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS" revision="lineage-22.2" />
