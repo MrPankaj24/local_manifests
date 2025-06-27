@@ -6,7 +6,7 @@
     <remote name="yamotaprjkt" fetch="https://github.com/yamotaprjkt" clone-depth="1" />
 
     <!-- Local - Manifests for Exynos1330 by Devhunter1 And Yamotaprjkt -->
-    <project path="device/samsung/a14x" name="android_device_samsung_a14x" remote="yamotaprjkt" revision="lineage-22.2" />
+    <project path="device/samsung/a14x" name="android_device_samsung_a14x" remote="yamotaprjkt" revision="infinity" />
     <project path="device/samsung/universal8535-common" name="android_device_samsung_universal8535-common" remote="yamotaprjkt" revision="lineage-22.2" />
     <project path="kernel/samsung/s5e8535" name="android_kernel_samsung_s5e8535" remote="yamotaprjkt" revision="Android15-stable" />
     <project path="vendor/samsung/a14x" name="android_vendor_samsung_a14x" remote="yamotaprjkt" revision="lineage-22.2" />
