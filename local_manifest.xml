@@ -15,9 +15,9 @@
   <project path="kernel/samsung/s5e8535" name="android_kernel_samsung_s5e8535" remote="devhunter1" revision="lineage-22.2" />
 
   <!-- Additional hardware by devhunter1 -->
-  <project path="hardware/samsung_slsi/linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="devhunter1" revision="lineage-22.2" />
-  <project path="hardware/samsung_slsi/linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="devhunter1" revision="lineage-22.2" />
-  <project path="hardware/samsung_slsi/linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="devhunter1" revision="lineage-22.2" />
+  <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="devhunter1" revision="lineage-22.2" />
+  <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="devhunter1" revision="lineage-22.2" />
+  <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="devhunter1" revision="lineage-22.2" />
 
   <!-- Projects by LineageOS -->
   <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS" revision="lineage-22.2" />
@@ -25,8 +25,8 @@
   <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="LineageOS" revision="lineage-22.2" />
   <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="LineageOS" revision="lineage-22.2" />
   <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="LineageOS" revision="lineage-22.2" />
-  <project path="hardware/samsung_slsi/linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="LineageOS" revision="lineage-22.2" />
-  <project path="hardware/samsung_slsi/linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="LineageOS" revision="lineage-22.2" />
-  <project path="hardware/samsung_slsi/linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="LineageOS" revision="lineage-22.2" />
+  <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="LineageOS" revision="lineage-22.2" />
+  <project path="hardware/samsung_slsi-linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="LineageOS" revision="lineage-22.2" />
+  <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="LineageOS" revision="lineage-22.2" />
 
 </manifest>
