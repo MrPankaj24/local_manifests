@@ -1,1 +1,1 @@
-git clone -b A14x https://github.com/parbindar12/local_manifests.git .repo/local_manifests
+git clone -b lineage-22.2 https://github.com/devhunter1/local_manifests.git .repo/local_manifests
