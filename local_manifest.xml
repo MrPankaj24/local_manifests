@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <!-- Local manifest created by PARBINDAR7 -->
+  <!-- Local manifest for Samsung Galaxy M14 5G (m14x) -->
 
   <!-- Remotes -->
   <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
   <remote name="devhunter1" fetch="https://github.com/devhunter1" clone-depth="1" />
+  
+  <!-- To use your own forks, uncomment the remote below: -->
+  <!-- <remote name="MrPankaj24" fetch="https://github.com/MrPankaj24" clone-depth="1" /> -->
 
-  <!-- Projects by devhunter1 -->
-  <project path="device/samsung/a14x" name="android_device_samsung_a14x" remote="devhunter1" revision="lineage-23.2" />
+  <!-- Projects specific to M14x -->
+  <!-- If devhunter1 is missing the lineage-23.2 branch, change the remote to MrPankaj24 -->
+  <project path="device/samsung/m14x" name="android_device_samsung_m14x" remote="devhunter1" revision="lineage-23.2" />
+  <project path="vendor/samsung/m14x" name="android_vendor_samsung_m14x" remote="devhunter1" revision="lineage-23.2" />
+  
+  <!-- Common projects shared with A14 (Exynos 1330 platform) -->
   <project path="device/samsung/s5e8535-common" name="android_device_samsung_s5e8535-common" remote="devhunter1" revision="lineage-23.2" />
-  <project path="vendor/samsung/a14x" name="android_vendor_samsung_a14x" remote="devhunter1" revision="lineage-23.2" />
   <project path="vendor/samsung/s5e8535-common" name="android_vendor_samsung_s5e8535-common" remote="devhunter1" revision="lineage-23.2" />
   <project path="kernel/samsung/s5e8535" name="android_kernel_samsung_s5e8535" remote="devhunter1" revision="lineage-23.2" />
 
